@@ -57,4 +57,11 @@ skillsBtn.addEventListener("click", function(){
     aboutBtn.classList.remove("active");
     experienceBtn.classList.remove("active");
     educationBtn.classList.remove("active");
-})
+});
+
+$('.feedback-gellary').masonry({
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: 200
+  });
+  
