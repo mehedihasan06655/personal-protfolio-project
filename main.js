@@ -59,9 +59,12 @@ skillsBtn.addEventListener("click", function(){
     educationBtn.classList.remove("active");
 });
 
-$('.feedback-gellary').masonry({
-    // options
-    itemSelector: '.grid-item',
-    columnWidth: 200
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        loop:true,
+    margin:10,
+    nav:true,
+    items:3,
+    });
   });
   
